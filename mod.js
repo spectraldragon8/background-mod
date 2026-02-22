@@ -77,6 +77,32 @@
     { match: "/assets/maps/training/platform3.png", to: themeUrl("platform3.png") },
     { match: "/assets/maps/training/platform7.png", to: themeUrl("platform7.png") },
     { match: "/assets/maps/training/platprojec.png", to: themeUrl("platprojec.png") },
+      // ===== EXTRA VOIDS / 1v1 sprites =====
+      { match: "/assets/maps/voids/platform1t.png", to: themeUrl("platform1t.png") },
+      { match: "/assets/maps/voids/platform2.png", to: themeUrl("platform2.png") },
+      { match: "/assets/maps/voids/platform2t.png", to: themeUrl("platform2t.png") },
+      { match: "/assets/maps/voids/platform2t2.png", to: themeUrl("platform2t2.png") },
+      { match: "/assets/maps/voids/platform2tl.png", to: themeUrl("platform2tl.png") },
+      { match: "/assets/maps/voids/platform2tr.png", to: themeUrl("platform2tr.png") },
+
+      { match: "/assets/maps/voids/platform4h3.png", to: themeUrl("platform4h3.png") },
+      { match: "/assets/maps/voids/platform8h2.png", to: themeUrl("platform8h2.png") },
+      { match: "/assets/maps/voids/platform10t.png", to: themeUrl("platform10t.png") },
+      { match: "/assets/maps/voids/platform14h6.png", to: themeUrl("platform14h6.png") },
+
+      { match: "/assets/maps/voids/platform18.png", to: themeUrl("platform18.png") },
+      { match: "/assets/maps/voids/platform22.png", to: themeUrl("platform22.png") },
+      { match: "/assets/maps/voids/platform26.png", to: themeUrl("platform26.png") },
+      { match: "/assets/maps/voids/platform40.png", to: themeUrl("platform40.png") },
+      { match: "/assets/maps/voids/platform60.png", to: themeUrl("platform60.png") },
+
+      { match: "/assets/maps/voids/scho.png", to: themeUrl("scho.png") },
+      { match: "/assets/maps/voids/barrier.png", to: themeUrl("barrier.png") },
+
+      { match: "/assets/maps/voids/blockm4h48.png", to: themeUrl("blockm4h48.png") },
+
+      { match: "/assets/maps/voids/box1v1mc2.png", to: themeUrl("box1v1mc2.png") },
+      { match: "/assets/maps/voids/box1v1mo2.png", to: themeUrl("box1v1mo2.png") },
   ];
 
   // Cache custom URL -> blob URL so we only download once
