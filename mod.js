@@ -18,6 +18,8 @@
     none: null,
     outerspace:
       "https://raw.githubusercontent.com/spectraldragon8/background-mod/main/themes/outerspace/",
+    revis:
+      "https://raw.githubusercontent.com/spectraldragon8/background-mod/main/themes/revisdomain/",
   };
 
   function getThemeName() {
@@ -303,6 +305,9 @@
     const optOuter = document.createElement("option");
     optOuter.value = "outerspace";
     optOuter.textContent = "outerspace";
+    const optOuter = document.createElement("option");
+    optOuter.value = "revisdomain";
+    optOuter.textContent = "revisdomain";
 
     select.appendChild(optNone);
     select.appendChild(optOuter);
