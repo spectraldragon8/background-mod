@@ -305,12 +305,13 @@
     const optOuter = document.createElement("option");
     optOuter.value = "outerspace";
     optOuter.textContent = "outerspace";
-    const optOuter = document.createElement("option");
+    const optRevis = document.createElement("option");
     optOuter.value = "revisdomain";
     optOuter.textContent = "revisdomain";
 
     select.appendChild(optNone);
     select.appendChild(optOuter);
+    select.appendChild(optRevis);
     select.value = getThemeName();
 
     const apply = document.createElement("div");
